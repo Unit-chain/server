@@ -1,4 +1,5 @@
 # webserver
+## Generating certificate
 ```bash
 openssl genpkey -algorithm RSA -out server.key
 openssl req -new -key server.key -out server.csr

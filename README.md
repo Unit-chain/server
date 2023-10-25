@@ -11,7 +11,7 @@ curl --http2  --cacert /path/to/certificate/server.pem -X POST https://localhost
 curl --http2  --cacert /Users/kirillzhukov/Downloads/server.pem -X POST https://localhost:8080 -d '{"test":"test"}' -v # for test with debug info
 
 # HTTP1
-curl -0  --cacert /path/to/certificate/server.pem -X POST https://localhost:8080 -d '{"test":"test"}' # HTTP2 for test without debug info
-curl -0  --cacert /Users/kirillzhukov/Downloads/server.pem -X POST https://localhost:8080 -d '{"test":"test"}' -v # HTTP2 for test with debug info 
+curl -0  --cacert /path/to/certificate/server.pem -X POST https://localhost:8080 -d '{"test":"test"}' # for test without debug info
+curl -0  --cacert /Users/kirillzhukov/Downloads/server.pem -X POST https://localhost:8080 -d '{"test":"test"}' -v # for test with debug info 
 ```
 
